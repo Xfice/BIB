@@ -1,0 +1,378 @@
+*{
+    margin:0px;
+}
+
+.first-div>nav{
+    display:flex;
+    background-color: black;
+    z-index: 9;
+}
+
+#homelogo{
+    margin-left: 275px;
+    padding-top: 0px;
+}
+
+.product-dropbtn {
+    background-color: black;
+    margin-top: 1px;
+    color: white;
+    padding: 15px;
+    padding-left: 7px;
+    font-size: 16px;
+    border: none;
+    cursor:pointer;
+  }
+  
+  .product-dropbtn:hover{
+    color:rgb(163, 155, 155);
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .product-dropdown {
+    padding-top: 12px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .product-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    box-shadow: black;
+    z-index: 1;
+    border-radius: 5px;
+    padding-bottom: 20px;
+  }
+  
+  /* Links inside the dropdown */
+  .product-dropdown-content a {
+    color: black;   
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .product-dropdown-content a:hover {color: rgb(87, 164, 236);}
+  
+  /* Show the dropdown menu on hover */
+  .product-dropdown:hover .product-dropdown-content {display: block;}
+
+  .dropdown-arrow{
+      display:inline;
+      padding-top: 1px;
+  }
+
+  .nav-btn {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-left: 1px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .nav-btn:hover {
+      color:rgb(163, 155, 155);
+  }
+  .nav-btn-signup:hover {
+    color:rgb(163, 155, 155);
+}
+
+  .nav-btn-signin:hover {
+      color:rgb(163, 155, 155);
+  }
+
+  .explore-dropbtn {
+    background-color: black;
+    margin-top: 1px;
+    color: white;
+    padding: 15px;
+    padding-left: 7px;
+    font-size: 16px;
+    border: none;
+    cursor:pointer;
+  }
+  
+  .explore-dropbtn:hover{
+    color:rgb(163, 155, 155);
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .explore-dropdown {
+    padding-top: 12px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .explore-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    box-shadow: black;
+    z-index: 1;
+    border-radius: 5px;
+    padding-bottom: 20px;
+  }
+  
+  /* Links inside the dropdown */
+  .explore-dropdown-content a {
+    color: black;   
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .explore-dropdown-content a:hover {color: rgb(87, 164, 236);}
+  
+  /* Show the dropdown menu on hover */
+  .explore-dropdown:hover .explore-dropdown-content {display: block;}
+
+  .explore-p {
+      margin-top: 10px;
+      margin-left: 20px;
+  }
+
+
+
+  .pricing-dropbtn {
+    background-color: black;
+    color: white;
+    margin-top: 1px;
+    padding: 15px;
+    padding-left: 7px;
+    font-size: 16px;
+    border: none;
+    cursor:pointer;
+  }
+  
+  .pricing-dropbtn:hover{
+    color:rgb(163, 155, 155);
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .pricing-dropdown {
+    padding-top: 12px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .pricing-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    box-shadow: black;
+    z-index: 1;
+    border-radius: 5px;
+    padding-bottom: 20px;
+  }
+  
+  /* Links inside the dropdown */
+  .pricing-dropdown-content a {
+    color: black;   
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .pricing-dropdown-content a:hover {color: rgb(87, 164, 236);}
+  
+  /* Show the dropdown menu on hover */
+  .pricing-dropdown:hover .pricing-dropdown-content {display: block;}
+
+  hr{
+    border-top: 2px solid rgb(221, 215, 215);
+  }
+
+  .content-bold{
+      font-weight: bold;
+  }
+
+  .hr-div{
+    margin-right: 20px; 
+    margin-left: 20px; 
+    margin-top: 20px;
+  }
+
+  .input-box-div{
+      padding-top: 18px;
+      padding-left: 290px;
+  }
+
+  .input-box{
+      height:33px;
+      width: 230px;
+      color: white;
+      border-radius: 5px;
+      background-color: black;
+      border-color: white;
+      border: .5px solid;
+      opacity: .6;
+  }
+
+  .input-box::placeholder{
+      font-size: 15px;
+      color: white;
+      padding: 5px;
+  }
+
+  .nav-btn-signup{
+        height:35px;
+        width:75px;
+        background-color: black;
+        color: white;
+        margin-top: 20px;
+        padding-top: 2px;
+        /* padding: 15px;
+        padding-left: 1px; */
+        font-size: 16px;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: justify;
+        z-index: 1;
+  }
+
+  .nav-btn-signin {
+    background-color: black;
+    color: white;
+    margin-left:15px;
+    padding: 15px;
+    padding-left: 1px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .first-div{
+      height:900px;
+      background-color: black;
+    
+      z-index: 1;
+    }
+
+  .globe-div{
+      height:500px;
+      width:500px;
+      position:absolute;
+      top:-60px;
+      left:840px;
+      padding: 0px;
+
+  }
+
+  .globe-vid{
+      padding: 0px;
+      opacity: .1;
+  }
+
+  .welcome-div{
+      font-size: 40px;
+      color:white;
+      height:500px;
+      width:600px;
+      top:220px;
+      left:300px;
+      position:absolute;
+      background-color: black;
+  }
+
+  .welcome-p{
+      font-size:27px;
+      color:rgb(119, 154, 184)
+  }
+
+  .glow-div{
+      position:absolute;
+      z-index: 1;
+      top:-30rem;
+      left: -25rem;
+  }
+
+  .background-div{
+      background-color:black;
+  }
+
+  .e-mail-field{
+      margin-top:20px;
+      height: 45px;
+      width: 350px;
+      border-radius: 10px;
+      padding-right:20px;
+  }
+
+  .e-mail-form{
+      display:flex;
+  }
+
+
+  .e-mail-submit-btn{
+      background-color: rgb(89, 168, 89);
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      height: 50px;
+      width: 180px;
+      border-radius: 10px;
+      cursor:pointer;
+  }
+  
+  .e-mail-field::placeholder{
+    text-indent:15px;
+    font-size: 17px;
+    color: grey;
+    padding: 5px;
+  }
+
+  .stat-div{
+      display:flex;
+      z-index: 2;
+  }
+
+  .stat-div-content{
+    margin-top:200px;
+    margin-left:10px;
+    width: 220px;
+    height: 150px;
+    position:relative;  
+  }
+
+  .p-stat-content-small{
+    font-size:15px;
+  }
+
+  .p-stat-content-normal{
+    font-size:20px;
+  }
+
+  .platform-div{
+      position:relative;
+
+  }
+  .platform-img{
+    width:100%;
+  }
+
+  .astronaut-div{
+      position:absolute;
+      top:500px;
+      left:1150px;
+  }
+
+  .astronaut-img{
+    width:500px;
+  }
+
